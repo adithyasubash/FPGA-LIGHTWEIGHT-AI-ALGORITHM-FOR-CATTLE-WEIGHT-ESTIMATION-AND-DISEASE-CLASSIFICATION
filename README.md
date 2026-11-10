@@ -15,6 +15,9 @@ Two neural networks are turned into **FPGA hardware with Vitis HLS**, and a thir
 ---
 
 ## 1. Results
+   ![Model accuracy](results/1_model_accuracy.png)
+   ![Fusion gain](results/2_fusion_gain.png)
+   ![FPGA clocks](results/3_fpga_clocks.png)
 
 | Model | Where it runs | Accuracy | Macro F1 |
 |---|---|---|---|
