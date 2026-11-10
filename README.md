@@ -23,7 +23,7 @@ Two neural networks are turned into **FPGA hardware with Vitis HLS**, and a thir
 
 ### Demo video
 
-[![Watch the demo on YouTube](https://img.youtube.com/vi/1ldZG0LqKcE/maxresdefault.jpg)](https://youtu.be/1ldZG0LqKcE)
+[![Watch the demo on YouTube](https://img.youtube.com/vi/lldZG0LqKcE/hqdefault.jpg)](https://youtu.be/lldZG0LqKcE)
 
 
 | Model | Where it runs | Accuracy | Macro F1 |
