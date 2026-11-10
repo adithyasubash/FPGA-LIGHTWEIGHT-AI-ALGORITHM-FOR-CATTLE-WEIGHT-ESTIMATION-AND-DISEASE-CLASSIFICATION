@@ -1,0 +1,25 @@
+{
+  "best": "SVM_RBF",
+  "models": {
+    "LogReg": {
+      "val_macro_f1": 0.7770625138857694,
+      "test_accuracy": 0.7619565217391304,
+      "test_macro_f1": 0.7821937253238938
+    },
+    "SVM_RBF": {
+      "val_macro_f1": 0.8618930776971652,
+      "test_accuracy": 0.8456521739130435,
+      "test_macro_f1": 0.8589602451200296
+    },
+    "RandomForest": {
+      "val_macro_f1": 0.8151870922764098,
+      "test_accuracy": 0.7891304347826087,
+      "test_macro_f1": 0.7957684035440284
+    },
+    "KNN": {
+      "val_macro_f1": 0.7753410115419811,
+      "test_accuracy": 0.7739130434782608,
+      "test_macro_f1": 0.7746303593475574
+    }
+  }
+}

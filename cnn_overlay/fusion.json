@@ -1,0 +1,25 @@
+{
+  "w_cnn": 0.5,
+  "classes": [
+    "Cow_Healthy",
+    "Cow_FMD",
+    "Cow_Lumpy",
+    "Goat_Healthy",
+    "Goat_Unhealthy"
+  ],
+  "test": {
+    "GreenCNN_int8_FPGA": {
+      "accuracy": 0.8554347826086957,
+      "macro_f1": 0.8561217290390605
+    },
+    "MobileNetV2_ARM": {
+      "accuracy": 0.9108695652173913,
+      "macro_f1": 0.9128210305919284
+    },
+    "Fused_CNN+MobileNetV2": {
+      "accuracy": 0.9152173913043479,
+      "macro_f1": 0.9177648674979627
+    }
+  },
+  "confidence_threshold": 0.6
+}

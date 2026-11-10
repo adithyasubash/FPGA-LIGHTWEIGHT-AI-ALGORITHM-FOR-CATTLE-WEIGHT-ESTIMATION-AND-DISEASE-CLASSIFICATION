@@ -1,0 +1,11 @@
+                precision    recall  f1-score   support
+
+   Cow_Healthy      0.927     0.907     0.917       376
+       Cow_FMD      0.938     0.938     0.938       112
+     Cow_Lumpy      0.899     0.911     0.905       293
+  Goat_Healthy      0.886     0.939     0.912        66
+Goat_Unhealthy      0.918     0.918     0.918        73
+
+      accuracy                          0.915       920
+     macro avg      0.913     0.923     0.918       920
+  weighted avg      0.916     0.915     0.915       920

@@ -1,0 +1,22 @@
+{
+  "classes": [
+    "Cow_Healthy",
+    "Cow_FMD",
+    "Cow_Lumpy",
+    "Goat_Healthy",
+    "Goat_Unhealthy"
+  ],
+  "img_size": 64,
+  "logit_scale": 4.746355036890614e-06,
+  "req_shift": 24,
+  "widths": [
+    24,
+    48,
+    64,
+    96
+  ],
+  "int8_test": {
+    "accuracy": 0.8554347826086957,
+    "macro_f1": 0.8561217290390605
+  }
+}

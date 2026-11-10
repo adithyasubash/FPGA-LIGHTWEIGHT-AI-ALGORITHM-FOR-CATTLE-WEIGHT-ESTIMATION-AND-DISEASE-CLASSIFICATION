@@ -1,0 +1,11 @@
+numpy
+pandas
+pillow
+matplotlib
+scikit-learn
+scikit-image
+joblib
+opencv-python
+onnx
+# PyTorch + torchvision CPU build: install them with this command FIRST (not from this file):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
