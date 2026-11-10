@@ -16,8 +16,15 @@ Two neural networks are turned into **FPGA hardware with Vitis HLS**, and a thir
 
 ## 1. Results
    ![Model accuracy](results/1_model_accuracy.png)
-   ![Fusion gain](results/2_fusion_gain.png)
-   ![FPGA clocks](results/3_fpga_clocks.png)
+
+![Fusion gain](results/2_fusion_gain.png)
+
+![FPGA clocks](results/3_fpga_clocks.png)
+
+### Demo video
+
+[![Watch the demo on YouTube](https://img.youtube.com/vi/1ldZG0LqKcE/maxresdefault.jpg)](https://youtu.be/1ldZG0LqKcE)
+
 
 | Model | Where it runs | Accuracy | Macro F1 |
 |---|---|---|---|
@@ -35,7 +42,15 @@ Two neural networks are turned into **FPGA hardware with Vitis HLS**, and a thir
 Full numbers: `training/outputs/comparison.csv` and `training/outputs/comparison.png`. Confusion matrices are in `training/outputs/*/cm_*.png`.
 
 ---
+## Dataset
 
+| Classes | Source |
+|---|---|
+| Cow_Healthy, Cow_FMD, Cow_Lumpy | [Cattle Diseases Datasets – Kaggle](https://www.kaggle.com/datasets/devang03mgr/cattle-diseases-datasets) |
+| Goat_Healthy, Goat_Unhealthy | [Healthy and Unhealthy Goat Images – Kaggle](https://www.kaggle.com/datasets/kartikeybartwal/dataset) |
+
+The images are not included in this repo. Download both datasets, then run
+`python training/step0_build_dataset.py` to build the 5-class dataset (70/15/15 split in step 2).
 ## 2. Repository layout
 
 ```
